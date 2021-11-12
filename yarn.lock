@@ -3284,7 +3284,7 @@ __metadata:
     "@walrus/commit": 1.2.1
     "@walrus/plugin-release": 1.14.0
     antd: 4.16.13
-    dumi: 1.1.31
+    dumi: 1.1.32
     father-build: 1.20.1
     lerna: 4.0.0
     react: 17.0.2
@@ -4312,9 +4312,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@umijs/preset-dumi@npm:1.1.31":
-  version: 1.1.31
-  resolution: "@umijs/preset-dumi@npm:1.1.31"
+"@umijs/preset-dumi@npm:1.1.32":
+  version: 1.1.32
+  resolution: "@umijs/preset-dumi@npm:1.1.32"
   dependencies:
     "@babel/core": ^7.7.2
     "@babel/generator": ^7.7.2
@@ -4330,7 +4330,7 @@ __metadata:
     copy-text-to-clipboard: ^2.2.0
     deepmerge: ^4.2.2
     dumi-assets-types: 1.0.0
-    dumi-theme-default: 1.1.14
+    dumi-theme-default: 1.1.15
     enhanced-resolve: ^4.1.1
     github-slugger: ^1.3.0
     hast-util-has-property: ^1.0.4
@@ -4362,7 +4362,7 @@ __metadata:
     unist-util-visit-parents: ^3.0.1
   peerDependencies:
     umi: 3.x
-  checksum: 86c03e183b2968e13c4a28ec2e908b49b56032c930bd78f1229c0b47e1bc0a63fe68bf6fe0bbdbd50863c3d932d163aabbe36cac5bb40248b40aeb4ce7f9ec83
+  checksum: 8294943a8e13ade770c9f5eaf33c90e8c52a8c260304495f48bc1d3abe446c2edcf5de7be922e593d0f4b577b736a86c20c9d1c89888c2ea56d0545c8530b24a
   languageName: node
   linkType: hard
 
@@ -7486,29 +7486,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dumi-theme-default@npm:1.1.14":
-  version: 1.1.14
-  resolution: "dumi-theme-default@npm:1.1.14"
+"dumi-theme-default@npm:1.1.15":
+  version: 1.1.15
+  resolution: "dumi-theme-default@npm:1.1.15"
   dependencies:
     prism-react-renderer: ^1.1.1
     prismjs: ^1.21.0
+    rc-motion: ^2.4.1
     rc-tabs: ^11.7.1
+    rc-tree: ^4.1.5
   peerDependencies:
     "@umijs/preset-dumi": 1.x
     react: ^16.13.1 || ^17.0.0
-  checksum: 2a748a348ec0b360143e77ad45de758c3973ab58070cd011b51790b9d5d736274e46f54954f2957f31ce98a81b15a75d0fda564370049fde4771c0dfdac6ffc2
+  checksum: 8304e05f3ee78aa3f1c2339d326fc2872f45b53eaa316aae27b1fba7289dd83c050952542d89060ce2f4b4f83818eccbdcefa3426b62b7b8dec5deb1913172b5
   languageName: node
   linkType: hard
 
-"dumi@npm:1.1.31":
-  version: 1.1.31
-  resolution: "dumi@npm:1.1.31"
+"dumi@npm:1.1.32":
+  version: 1.1.32
+  resolution: "dumi@npm:1.1.32"
   dependencies:
-    "@umijs/preset-dumi": 1.1.31
+    "@umijs/preset-dumi": 1.1.32
     umi: ^3.0.0
   bin:
     dumi: bin/dumi.js
-  checksum: e6d0cb421d9ded215b51f2a431f08c03776f364fdded6d2955ae417855ed6b33b07152d4b0079d568c7b3c142ed4f5342b77679ffb301fea102ed865f32b889e
+  checksum: 25396a5de5a36029708d97ed8456e10bdc7594a2efd07e7cd031c147d4078347d23bcd6d5af9306ffb0af565455f1168596557999543a9e7079dd4726cdb83b4
   languageName: node
   linkType: hard
 
@@ -14373,7 +14375,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"rc-motion@npm:^2.0.0, rc-motion@npm:^2.0.1, rc-motion@npm:^2.2.0, rc-motion@npm:^2.3.0, rc-motion@npm:^2.3.4, rc-motion@npm:^2.4.0, rc-motion@npm:^2.4.3":
+"rc-motion@npm:^2.0.0, rc-motion@npm:^2.0.1, rc-motion@npm:^2.2.0, rc-motion@npm:^2.3.0, rc-motion@npm:^2.3.4, rc-motion@npm:^2.4.0, rc-motion@npm:^2.4.1, rc-motion@npm:^2.4.3":
   version: 2.4.4
   resolution: "rc-motion@npm:2.4.4"
   dependencies:
@@ -14668,7 +14670,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"rc-tree@npm:^4.0.0, rc-tree@npm:~4.2.1":
+"rc-tree@npm:^4.0.0, rc-tree@npm:^4.1.5, rc-tree@npm:~4.2.1":
   version: 4.2.2
   resolution: "rc-tree@npm:4.2.2"
   dependencies:
